@@ -1,0 +1,27 @@
+input,
+textarea {
+  display: flex;
+  align-items: center;
+
+  border: 1px solid #808080;
+  border-radius: 4px;
+
+  height: 40px;
+  width: 360px;
+
+  padding-left: 16px;
+
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+textarea {
+  height: 80px;
+}
+
+button [type='submit'] {
+  margin-top: 28px;
+}
