@@ -88,7 +88,7 @@ async function handleClick() {
       behavior: 'smooth',
     });
     if (lastPage === page) {
-      loadMore.classList.add('.is-hidden');
+      loadMore.classList.add('is-hidden');
       iziToast.info({
         message: "We're sorry, but you've reached the end of search results.",
         position: 'topLeft',
