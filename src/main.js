@@ -32,7 +32,7 @@ async function handleSubmit(event) {
   loaderStart();
   gallery.innerHTML = '';
   page = 1;
-  const questForm = event.target['queryInput'].value;
+  questForm = event.target['queryInput'].value;
 
   if (questForm !== '') {
     try {
